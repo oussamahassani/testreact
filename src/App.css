@@ -1,14 +1,19 @@
 .App {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.App-logo {
+.image {
   height: 40vmin;
   pointer-events: none;
 }
+.MO3EZ{
+  border:1px solid red;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .image {
     animation: App-logo-spin infinite 20s linear;
   }
 }

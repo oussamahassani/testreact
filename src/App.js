@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './hader/index';
+import Dolar from './hader/index';
+import Footer from './footer/index';
+import Logo from './logo.png';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         <Dolar titel="bonjour"/>
+    <div className="MO3EZ">
+ 
+    <img src ={Logo} alt="Smiley face" className="image"/>
+     <h1>hello app</h1>
+     </div>
+     <Footer titel="footer"/>
     </div>
   );
 }
